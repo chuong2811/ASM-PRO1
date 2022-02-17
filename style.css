@@ -73,10 +73,10 @@ header{
     left: 10px;
 }
 .ten .phukien{
-    position: absolute !important ;
+    position: absolute;
     max-width: 100%;
     top: 10px;
-    right:20px;
+    right:10px;
 }
 .ten .phukien .control{
     /* display: none; */
@@ -142,19 +142,46 @@ header{
 .menu .nav>li>a:hover{
     color: #999;
 }
-.poster{
-    width: 100%;
-    padding-top: 0px;
+.mau i{
+    width: 50%;
 }
-.poster img{
-    max-width: 100%;
+.Product{
+    overflow:auto;
+    display: flex;
+    font-family: 'Be Vietnam Pro', sans-serif; 
+
 }
-.phude{
-    color: black;
-    padding: 10px;
-    margin: 5px;
-    border-bottom: 3px dashed gray;
-    background-color: white;
+.product{
+    padding-top: 134px;
+    padding-left: 50px;
+}
+.product1{
+    margin-bottom: 10px;
+    max-width: 200px;
+    cursor: pointer;
+    border: 1px solid rgb(199, 197, 197);
+}
+.product-main{
+    padding-top: 134px;
+    text-align: center;
+    overflow:auto;
+}
+.product-main1{
+    max-width: 700px;
+    margin-bottom: 10px;
+}
+.product1:hover{
+    border: 1px solid black;
+}
+
+.buttom{
+    padding: 10px 100px;
+}
+.khac{
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif; 
+    color:rgb(88, 89, 90);
+    border-bottom:1px dashed gray ;
 }
 .sanpham .Sanpham{
     width: 22%;
@@ -186,13 +213,30 @@ header{
 .sanpham .Sanpham .pro1:hover .img-change{
     opacity: 0;
 }
-.sale{
-    color:red;
-    left:0;
-    top:0;
-    position: absolute;
-    clear: both;
-    z-index: 4;
+.thongtin{
+    padding-right: 50px;
+    padding-top: 134px;
+    width: 50%;
+    position: relative;
+}
+.thongtin h4{
+    border-bottom: 1px dashed gray;
+    font-size: 25px;
+    color:rgb(128, 128, 128);
+}
+.thongtin .gia{
+    font-size: 20px;
+    border-bottom: 1px dashed gray;
+}
+.thongtin .control{
+    width: 100%;
+    border-radius: 0px 0px 0px 4px gray;
+    position:relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 4px;
+    outline:none;
+    height: 40px;
 }
 .hotline{
     height: 70px;
@@ -212,7 +256,7 @@ footer{
     height: 275px;
     padding: 10px;
     background: white;
-    font-family: 'Be Vietnam Pro', sans-serif; ;
+    font-family: 'Be Vietnam Pro', sans-serif; 
 }
 footer .ended{
     display: flex;
